@@ -1,3 +1,9 @@
+import { PostHogProvider } from "./posthog-provider"
+
 export default function Provider({ children }: { children: React.ReactNode }) {
-  return <>{children}</>
+  return (
+    <>
+      <PostHogProvider>{children}</PostHogProvider>
+    </>
+  )
 }
