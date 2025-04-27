@@ -20,6 +20,12 @@ export default function Home() {
         <Link href="/three" className="font-medium text-blue-500">
           Third page
         </Link>
+
+        ---
+
+        <Link href="/four" className="font-medium text-blue-500">
+          4<sup>th</sup> one
+        </Link>
       </div>
       <Welcome />
     </>
