@@ -16,6 +16,10 @@ export default function Home() {
         <Link href="/next-rewrite" className="font-medium text-blue-500">
           Next rewrite
         </Link>
+
+        <Link href="/three" className="font-medium text-blue-500">
+          Third page
+        </Link>
       </div>
       <Welcome />
     </>
